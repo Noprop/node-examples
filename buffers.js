@@ -5,7 +5,7 @@ const buf2 = Buffer.alloc(1024);
 buf2[0] = 72;  //        128 16 8421
 buf2[1] = 101; // 0x65 -> 0110  0101 -> 101
 buf2[2] = 121; // 0x79 -> 0111  1001 -> 121
-buf2[3] = 33;  // 0x21 -> 0010 0001 -> 33
+buf2[3] = 33;  // 0x21 -> 0010  0001 -> 33
 
 console.log("buf: ", buf);
 console.log("buf string: ", buf.toString());
